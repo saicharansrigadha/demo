@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "79274749444",
+    "project_id": "androidfirebase-e103d",
+    "storage_bucket": "androidfirebase-e103d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79274749444:android:f765d5c230b83de6764f51",
+        "android_client_info": {
+          "package_name": "com.example.firebaseconnectiondemo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfwPRmTZC7VdjkC6xNS0WDiob_w635mbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
