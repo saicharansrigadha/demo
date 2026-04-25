@@ -4,10 +4,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 import android.widget.Toast;
 
 import com.google.firebase.firestore.FirebaseFirestore;
+
+import firebase.com.protolitewrapper.BuildConfig;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -41,5 +44,5 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(view -> {
             Toast.makeText(this,"Clicked",Toast.LENGTH_SHORT).show();
         });
-    }
+        Log.d("FLAVOR", BuildConfig.FLAVOR);    }
 }
